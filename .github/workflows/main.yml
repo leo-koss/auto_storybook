@@ -15,7 +15,7 @@ jobs:
         run: npm ci
 
       - name: Build Storybook
-        run: npm storybook@latest init
+        run: npx storybook@latest init
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
