@@ -24,3 +24,5 @@ jobs:
       #     publish_dir: ./public
       - name: Deploy GitHub Pages site
         uses: actions/deploy-pages@v1.2.9
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
